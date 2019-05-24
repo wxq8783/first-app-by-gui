@@ -1,4 +1,4 @@
-package thinking.in.spring.boot;
+package thinkinspringboot;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

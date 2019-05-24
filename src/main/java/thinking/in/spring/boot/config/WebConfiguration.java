@@ -16,8 +16,8 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
-//@Configuration
-@SpringBootApplication
+@Configuration
+//@SpringBootApplication
 //@EnableAutoConfiguration
 public class WebConfiguration {
 

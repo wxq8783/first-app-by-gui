@@ -18,15 +18,21 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
-
+/**
+ * 执行治理
+ * mvn spring-boot:run -Dmanagement.endpoints.web.exposure.include=beans,conditions,env
+ *
+ * mvn spring-boot:run -Dmanagement.endpoints.web.exposure.include=beans,conditions,env
+ */
 //@SpringBootConfiguration
-//@EnableAutoConfiguration
+@EnableAutoConfiguration
 //@ComponentScan
 //@SpringBootApplication(scanBasePackages = "thinking.in.spring.boot.config")
 public class FirstAppByGuiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebConfiguration.class, args);
+		//SpringApplication.run(WebConfiguration.class, args);
+		SpringApplication.run(FirstAppByGuiApplication.class,args);
 	}
 //
 //	@EventListener(WebServerInitializedEvent.class)

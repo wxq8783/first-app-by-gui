@@ -1,4 +1,4 @@
-package thinking.in.spring.boot;
+package thinkinspringboot;
 
 public class ThreadQuestDemo {
     public static void main(String[] args) throws Exception{
